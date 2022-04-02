@@ -1,0 +1,30 @@
+.todo{
+      padding: 0;
+      
+      background-color: white;
+      
+      list-style: none;
+
+      color: black;
+}
+
+.todo__li{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 10px;
+}
+
+.todo__button{
+      background-color: blue;
+      color: white;
+      font-weight: bold;
+      border:none;
+      padding: 10px 15px;
+      border-radius: 5px;
+}
+
+.todo__button:hover{
+      background-color: red;
+}
